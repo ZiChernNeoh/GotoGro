@@ -1,0 +1,120 @@
+.admin-product-page {
+    display: flex;
+    height: 100%;
+    
+    
+}
+
+.upload-product-page {
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+    background-color: #f4f4f9;
+    margin-left: 250px; 
+    
+}
+
+.upload-product-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.upload-form input,
+.upload-form textarea,
+.upload-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.upload-form textarea {
+    resize: vertical;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.image-preview-box {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 10px 0 15px 0;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.image-preview {
+    flex: 0 0 15%;
+    height: 100px;
+    object-fit: cover; 
+    margin: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+}
+
+.success-message {
+    position: fixed; 
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+    opacity: 1; 
+}
+
+.success-message.hide {
+    opacity: 0; 
+}
+
+
+
+@media (max-width: 600px) {
+    .image-preview {
+        flex: 0 0 45%; 
+    }
+}
