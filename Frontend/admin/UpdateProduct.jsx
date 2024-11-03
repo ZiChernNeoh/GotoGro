@@ -17,7 +17,7 @@ const AdminProductDetails = () => {
         ProductStock: '',
         ProductCat: '',
         ProductDiscountPrice: '',
-        ProductStatus: 'posted',
+        ProductStatus: 'posted', 
         ProductImage: null
     });
 
