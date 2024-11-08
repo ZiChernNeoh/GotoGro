@@ -23,7 +23,7 @@ const AdminUsers = () => {
     }, []);
 
     return (
-        <div className="admin-page">
+        <div className="admin-page"> 
             {/* Reuse AdminNav */}
             <AdminNav />
 
